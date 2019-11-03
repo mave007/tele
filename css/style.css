@@ -35,7 +35,7 @@ a, a:hover, a:visited{
     .reloj{ font-size: 2em; }
 }
 @media(min-width: 1620px){
-    .reloj{ font-size: 4em; }
+    .reloj{ font-size: 8em; }
 }
 
 .rec {
