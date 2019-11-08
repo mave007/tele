@@ -11,7 +11,7 @@ var App = {
         },
         'chv': {
             'nombre': 'Chilevision', 
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5c6c302a414cc5496c9d7d79?jsapi=true&autoplay=true&volume=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">CHV</div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5c928b7f6d6f41084bdae898?jsapi=true&amp;autoplay=true&amp;access_token=nLvw6ga9EPTwQIvnzY6e5THoxHqcNDAuKhnc19jMh4q9e45TvjxAonmS7HUiOwM2DGao1jwg0x3&amp;youbora[extra][param1]=Chilevisi%C3%B3n" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">CHV</div>'
         },
         'cima': {
             'nombre': 'Galeria CIMA', 
