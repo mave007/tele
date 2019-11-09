@@ -215,7 +215,7 @@ var App = {
             App.add('cnn-cl');
             App.add('venticuatro');
             App.add('meganoticias');
-            App.add('cima');
+            App.add('tn');
         }
         
     }
