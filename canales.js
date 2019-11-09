@@ -73,11 +73,11 @@ var App = {
         },
         'canal-21': {
             'nombre': 'Canal 21 (Chillán)',
-            'code': '<div id="gzplayer" class="embed-responsive embed-responsive-16by9"><iframe src="http://live.grupoz.cl/8b383d0a9cef5560a1bfbbeaf6ad4a38?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Canal 21 (Chillán)</div>'
+            'code': '<div id="gzplayer" class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/8b383d0a9cef5560a1bfbbeaf6ad4a38?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Canal 21 (Chillán)</div>'
         },
         'radio-ae': {
             'nombre': 'Radio AE (DUOC)',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="http://live.grupoz.cl/3991add90400a25a1580f290246f90eb?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Radio AE</div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/3991add90400a25a1580f290246f90eb?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Radio AE</div>'
         },
         'ChilledCow (MUSIC)': {
             'nombre': 'ChilledCow (MUSIC)',
