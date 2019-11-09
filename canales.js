@@ -14,8 +14,8 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5c928b7f6d6f41084bdae898?jsapi=true&amp;autoplay=true&amp;access_token=nLvw6ga9EPTwQIvnzY6e5THoxHqcNDAuKhnc19jMh4q9e45TvjxAonmS7HUiOwM2DGao1jwg0x3&amp;youbora[extra][param1]=Chilevisi%C3%B3n" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">CHV</div>'
         },
         'cima': {
-            'nombre': 'Galeria CIMA', 
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/SEXkoR9AqW4?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Galeria CIMA&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+            'nombre': 'Galeria CIMA [offline]', 
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/SEXkoR9AqW4?autoplay=0&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Galeria CIMA [offline]&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
         },
         't13': {
             'nombre': 'T13', 
