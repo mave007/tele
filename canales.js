@@ -105,7 +105,19 @@ var App = {
         },
         'cam-dipu': {
             'nombre': 'Camara Diputados',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js" controls preload="auto" width="640" height="368"><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl/camara19/live/chunklist.m3u8"></video><div class="nombre">Camara Diputados</div>'
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl/camara19/live/chunklist.m3u8"></video><div class="nombre">Camara Diputados</div>'
+        },
+        'cam-dipu2': {
+            'nombre': 'Camara Diputado2',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="https://camara.02.cl.cdnz.cl/cdndvr/live/playlist.m3u8?DVR"></video><div class="nombre">Camara Diputados 2</div>'
+        },
+        'cam-dipu3': {
+            'nombre': 'Camara Diputado3',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="https://camara.03.cl.cdnz.cl/camara19/live/playlist.m3u8"></video><div class="nombre">Camara Diputados 3</div>'
+        },
+        'cam-dipu4': {
+            'nombre': 'Camara Diputado4',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl:80/camara19/live/playlist.m3u8"></video><div class="nombre">Camara Diputados 4</div>'
         }
     },
     templateCanal: '<div class="col-4 col-md-4 col-lg-4 un-player" data-canal="{canal}">{htmelele}</div>',
