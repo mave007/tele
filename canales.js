@@ -9,7 +9,7 @@ var App = {
             'nombre': 'Meganoticias',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Meganoticias&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
         },
-        'chv': {
+        'chv-yutu': {
             'nombre': 'Chilevision', 
             'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5c928b7f6d6f41084bdae898?jsapi=true&amp;autoplay=true&amp;access_token=nLvw6ga9EPTwQIvnzY6e5THoxHqcNDAuKhnc19jMh4q9e45TvjxAonmS7HUiOwM2DGao1jwg0x3&amp;youbora[extra][param1]=Chilevisi%C3%B3n" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">CHV</div>'
@@ -104,20 +104,28 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/g0AvCn6ViqY?autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">STEEZYASFUCK&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
         },
         'cam-dipu': {
-            'nombre': 'Camara Diputados',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl/camara19/live/chunklist.m3u8"></video><div class="nombre">Camara Diputados</div>'
+            'nombre': 'Camara Diputados [edge]',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl/camara19/live/chunklist.m3u8"></video><div class="nombre"><img class="edge" src="https://i.ibb.co/qFn8JM9/New-Project.png"> Camara Diputados</div>'
         },
         'cam-dipu2': {
-            'nombre': 'Camara Diputado2',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="https://camara.02.cl.cdnz.cl/cdndvr/live/playlist.m3u8?DVR"></video><div class="nombre">Camara Diputados 2</div>'
+            'nombre': 'Camara Diputado2 [edge]',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="https://camara.02.cl.cdnz.cl/cdndvr/live/playlist.m3u8?DVR"></video><div class="nombre"><img class="edge" src="https://i.ibb.co/qFn8JM9/New-Project.png"> Camara Diputados 2</div>'
         },
         'cam-dipu3': {
-            'nombre': 'Camara Diputado3',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="https://camara.03.cl.cdnz.cl/camara19/live/playlist.m3u8"></video><div class="nombre">Camara Diputados 3</div>'
+            'nombre': 'Camara Diputado3 [edge]',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="https://camara.03.cl.cdnz.cl/camara19/live/playlist.m3u8"></video><div class="nombre"><img class="edge" src="https://i.ibb.co/qFn8JM9/New-Project.png"> Camara Diputados 3</div>'
         },
         'cam-dipu4': {
-            'nombre': 'Camara Diputado4',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl:80/camara19/live/playlist.m3u8"></video><div class="nombre">Camara Diputados 4</div>'
+            'nombre': 'Camara Diputado4 [edge]',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl:80/camara19/live/playlist.m3u8"></video><div class="nombre"><img class="edge" src="https://i.ibb.co/qFn8JM9/New-Project.png"> Camara Diputados 4</div>'
+        },
+        'chv-m3u': {
+            'nombre': 'CHV [edge]',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="http://mi.chv.cl/playlist/stream.m3u8?s=sd"></video><div class="nombre"><img class="edge" src="https://i.ibb.co/qFn8JM9/New-Project.png"> CHV [qHD]</div>'
+        },
+        'chv-m3u2': {
+            'nombre': 'CHV2 [edge]',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="http://mi.chv.cl/playlist/stream.m3u8?s=hd"></video><div class="nombre"><img class="edge" src="https://i.ibb.co/qFn8JM9/New-Project.png"> CHV [nHD]</div>'
         }
     },
     templateCanal: '<div class="col-4 col-md-4 col-lg-4 un-player" data-canal="{canal}">{htmelele}</div>',
