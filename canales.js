@@ -3,11 +3,11 @@ var App = {
     channels: {
         'venticuatro': {
             'nombre': '24 horas', 
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/hH7f7JdeqeI?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">24 Horas TVN&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">24 Horas TVN&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
         },
         'meganoticias': {
             'nombre': 'Meganoticias',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/52_232mnL2w?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Meganoticias&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Meganoticias&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
         },
         'chv': {
             'nombre': 'Chilevision', 
@@ -20,11 +20,11 @@ var App = {
         },
         't13': {
             'nombre': 'T13', 
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/bOvhCYr1NYk?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">T13&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">T13&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
         },
         'cnn-cl': {
             'nombre': 'CNN Chile',
-            'code':'<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/y5vvZ5gbF10?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">CNN Chile</div>'
+            'code':'<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCpOAcjJNAp0Y0fhznRrXIJQ?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">CNN Chile</div>'
         },
         'tn': {
             'nombre': 'Todonoticias',
@@ -69,7 +69,7 @@ var App = {
         },
         'canal-21': {
             'nombre': 'Canal 21 (Chillán)',
-            'code': '<div id="gzplayer" class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/8b383d0a9cef5560a1bfbbeaf6ad4a38?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Canal 21 (Chillán)</div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/8b383d0a9cef5560a1bfbbeaf6ad4a38?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Canal 21 (Chillán)</div>'
         },
         'radio-ae': {
             'nombre': 'Radio AE (DUOC)',
