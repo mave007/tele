@@ -102,6 +102,10 @@ var App = {
         'STEEZYASFUCK (MUSIC)': {
             'nombre': 'STEEZYASFUCK (MUSIC)',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/g0AvCn6ViqY?autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">STEEZYASFUCK&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+        },
+        'cam-dipu': {
+            'nombre': 'Camara Diputados',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js" controls preload="auto" width="640" height="368"><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl/camara19/live/chunklist.m3u8"></video><div class="nombre">Camara Diputados</div>'
         }
     },
     templateCanal: '<div class="col-4 col-md-4 col-lg-4 un-player" data-canal="{canal}">{htmelele}</div>',
