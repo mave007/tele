@@ -53,11 +53,6 @@ a, a:hover, a:visited{
     width: 10px;
     height: 10px;
     line-height: 15px;
-    animation: fadeIn linear 5s infinite;
-    -webkit-animation: fadeIn linear 5s infinite;
-    -moz-animation: fadeIn linear 5s infinite;
-    -o-animation: fadeIn linear 5s infinite;
-    -ms-animation: fadeIn linear 5s infinite;
 }
 
 .boton-modal{
