@@ -1,0 +1,1 @@
+Acá dejo los iconos que utilizo para evitar depender de servicios de hosteo externos a github.
