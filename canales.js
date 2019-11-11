@@ -1,131 +1,121 @@
 var App = {
     tunedIn: [],
     channels: {
-        'venticuatro': {
-            'nombre': '24 horas', 
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">24 Horas TVN&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+       'venticuatro': {
+            'nombre': '24 horas <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> 24 Horas TVN&nbsp;<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'meganoticias': {
-            'nombre': 'Meganoticias',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Meganoticias&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
-        },
-        'chv-yutu': {
-            'nombre': 'Chilevision', 
-            'status': 'offline',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5c928b7f6d6f41084bdae898?jsapi=true&amp;autoplay=true&amp;access_token=nLvw6ga9EPTwQIvnzY6e5THoxHqcNDAuKhnc19jMh4q9e45TvjxAonmS7HUiOwM2DGao1jwg0x3&amp;youbora[extra][param1]=Chilevisi%C3%B3n" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">CHV</div>'
+            'nombre': 'Meganoticias <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> Meganoticias&nbsp;<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'cima': {
-            'nombre': 'Galeria CIMA', 
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Galeria CIMA&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+            'nombre': 'Galeria CIMA <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> Galeria CIMA&nbsp;<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         't13': {
-            'nombre': 'T13', 
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">T13&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+            'nombre': 'T13 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> T13&nbsp;<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'cnn-cl': {
-            'nombre': 'CNN Chile',
-            'code':'<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCpOAcjJNAp0Y0fhznRrXIJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">CNN Chile</div>'
+            'nombre': 'CNN Chile <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code':'<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCpOAcjJNAp0Y0fhznRrXIJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">CNN Chile <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'tn': {
-            'nombre': 'Todonoticias',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/gVH6WvzwGeM?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">TN&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+            'nombre': 'Todonoticias 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/gVH6WvzwGeM?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> TN 🌍</div>'
         },
         'cooperativa': {
-            'nombre': 'Cooperativa',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/coopetv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Cooperativa</div>'
+            'nombre': '📻 Cooperativa <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/coopetv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">📻 Radio Cooperativa <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'bbtv': {
-            'nombre': 'Biobio TV',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/bbtv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Biobio TV</div>'
+            'nombre': '📻 Biobio TV <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/bbtv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">📻 Biobio TV <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'adn': {
-            'nombre': 'ADN',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/adntv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">ADN TV</div>'
-        },
-        'cdtv': {
-            'nombre': 'Camara Diputados',
-            'status': 'offline',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/BR-0sUb-FWw?autoplay=0&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">CD TV&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+            'nombre': '📻 ADN <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/adntv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">📻 ADN TV <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'duna': {
-            'nombre': 'Radio Duna',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/dunatv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Duna</div>'
+            'nombre': '📻 Duna <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/dunatv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">📻 Radio Duna <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'infinita': {
-            'nombre': 'Radio Infinita',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/infinitatv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Infinita</div>'
+            'nombre': '📻 Infinita <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/infinitatv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">📻 Radio Infinita <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'universo': {
-            'nombre': 'Radio Universo',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/universotv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Universo</div>'
-        },
-        'canal-9': {
-            'nombre': 'Canal 9 (Conce)',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/c9?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Canal 9 BBTV</div>'
-        },
-        'tvu': {
-            'nombre': 'TVU (Conce)',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/tvu?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">TVU</div>'
-        },
-        'canal-21': {
-            'nombre': 'Canal 21 (Chillán)',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/8b383d0a9cef5560a1bfbbeaf6ad4a38?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Canal 21 (Chillán)</div>'
+            'nombre': '📻 Universo <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/universotv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">📻 Radio Universo <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'radio-ae': {
-            'nombre': 'Radio AE (DUOC)',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/3991add90400a25a1580f290246f90eb?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Radio AE</div>'
+            'nombre': '📻 AE (DUOC) <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/3991add90400a25a1580f290246f90eb?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">📻 Radio AE <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
+        },
+        'canal-9': {
+            'nombre': 'Canal 9 (Conce) <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/c9?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"> Canal 9 BBTV <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
+        },
+        'tvu': {
+            'nombre': 'TVU (Conce) <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/tvu?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">TVU <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
+        },
+        'canal-21': {
+            'nombre': 'Canal 21 (Chillán) <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/8b383d0a9cef5560a1bfbbeaf6ad4a38?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Canal 21 (Chillán) <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
          'RT-español': {
-            'nombre': 'RT Español',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/mOcEqTR1Hn4?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">RT Español&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+            'nombre': 'RT Español 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/mOcEqTR1Hn4?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> RT Español 🌍</div>'
         },
          'RT-español2': {
-            'nombre': 'RT Español 2',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/9DXGrOU5wKQ?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">RT Español 2&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+            'nombre': 'RT Español op2 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/9DXGrOU5wKQ?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> RT Español op2 🌍</div>'
         },
         'RT-News': {
-            'nombre': 'RT News',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/NvCSr7qzAAM?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">RT News&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+            'nombre': 'RT News 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/NvCSr7qzAAM?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> RT News 🌍</div>'
         },
         'MILENIO': {
-            'nombre': 'MILENIO',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/I8JjPst6mz4?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">MILENIO</div>'
+            'nombre': 'MILENIO 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/I8JjPst6mz4?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> MILENIO 🌍</div>'
         },  
         'ChilledCow (MUSIC)': {
-            'nombre': 'ChilledCow (MUSIC)',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/hHW1oY26kxQ?autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">ChilledCow&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+            'nombre': 'ChilledCow 🎵',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/hHW1oY26kxQ?autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> ChilledCow 🎵</div>'
         },
         'Chillhop Music (MUSIC)': {
-            'nombre': 'Chillhop Music (MUSIC)',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/bebuiaSKtU4?autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Chillhop Music&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+            'nombre': 'Chillhop Music 🎵',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/bebuiaSKtU4?autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> Chillhop Music 🎵</div>'
         },
         'STEEZYASFUCK (MUSIC)': {
-            'nombre': 'STEEZYASFUCK (MUSIC)',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/g0AvCn6ViqY?autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">STEEZYASFUCK&nbsp;<img class="rec" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/16x16/1f534.png"></div>'
+            'nombre': 'STEEZYASFUCK 🎵',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/g0AvCn6ViqY?autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> STEEZYASFUCK 🎵</div>'
         },
         'cam-dipu': {
-            'nombre': 'Camara Diputados [edge]',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl/camara19/live/chunklist.m3u8"></video><div class="nombre"><img class="edge" src="https://i.ibb.co/qFn8JM9/New-Project.png"> Camara Diputados</div>'
+            'nombre': 'Cámara Diputados  <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img><img src="https://github.com/Alplox/tele/raw/master/icons/edge.png"></img>',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl/camara19/live/chunklist.m3u8"></video><div class="nombre"><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/edge.png"> Cámara Diputados <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'cam-dipu2': {
-            'nombre': 'Camara Diputado2 [edge]',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="https://camara.02.cl.cdnz.cl/cdndvr/live/playlist.m3u8?DVR"></video><div class="nombre"><img class="edge" src="https://i.ibb.co/qFn8JM9/New-Project.png"> Camara Diputados 2</div>'
+            'nombre': 'Cámara Diputado op2  <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img><img src="https://github.com/Alplox/tele/raw/master/icons/edge.png"></img>',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="https://camara.02.cl.cdnz.cl/cdndvr/live/playlist.m3u8?DVR"></video><div class="nombre"><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/edge.png"> Cámara Diputados 2 <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'cam-dipu3': {
-            'nombre': 'Camara Diputado3 [edge]',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="https://camara.03.cl.cdnz.cl/camara19/live/playlist.m3u8"></video><div class="nombre"><img class="edge" src="https://i.ibb.co/qFn8JM9/New-Project.png"> Camara Diputados 3</div>'
+            'nombre': 'Cámara Diputado op3  <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img><img src="https://github.com/Alplox/tele/raw/master/icons/edge.png"></img>',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="https://camara.03.cl.cdnz.cl/camara19/live/playlist.m3u8"></video><div class="nombre"><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/edge.png"> Cámara Diputados 3 <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'cam-dipu4': {
-            'nombre': 'Camara Diputado4 [edge]',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl:80/camara19/live/playlist.m3u8"></video><div class="nombre"><img class="edge" src="https://i.ibb.co/qFn8JM9/New-Project.png"> Camara Diputados 4</div>'
+            'nombre': 'Cámara Diputado op4  <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img><img src="https://github.com/Alplox/tele/raw/master/icons/edge.png"></img>',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl:80/camara19/live/playlist.m3u8"></video><div class="nombre"><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/edge.png"> Cámara Diputados 4 <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'chv-m3u': {
-            'nombre': 'CHV [edge]',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="http://mi.chv.cl/playlist/stream.m3u8?s=sd"></video><div class="nombre"><img class="edge" src="https://i.ibb.co/qFn8JM9/New-Project.png"> CHV [qHD]</div>'
+            'nombre': 'CHV  <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img><img src="https://github.com/Alplox/tele/raw/master/icons/edge.png"></img>',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="http://mi.chv.cl/playlist/stream.m3u8?s=sd"></video><div class="nombre"><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/edge.png"> CHV [qHD] <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'chv-m3u2': {
-            'nombre': 'CHV2 [edge]',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls preload="auto"><source type="application/x-mpegURL" src="http://mi.chv.cl/playlist/stream.m3u8?s=hd"></video><div class="nombre"><img class="edge" src="https://i.ibb.co/qFn8JM9/New-Project.png"> CHV [nHD]</div>'
+            'nombre': 'CHV op2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img><img src="https://github.com/Alplox/tele/raw/master/icons/edge.png"></img>',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="http://mi.chv.cl/playlist/stream.m3u8?s=hd"></video><div class="nombre"><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/edge.png"> CHV [nHD] <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         }
     },
     templateCanal: '<div class="col-4 col-md-4 col-lg-4 un-player" data-canal="{canal}">{htmelele}</div>',
