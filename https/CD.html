@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+<!---la cámara de diputados aun no posee dirección HTTPS asi que lo pase pa acá--->
+    <title>HTTPS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </style>
+    <script src="http://webtv.camara.cl/jwplayer/jwplayer.js"></script>
+    <script>        jwplayer.key = "MhrxaNFGEB5yljdFSf9UVSrPW9Ppa0TUoJ1wNnuDThg=";</script>
+    <script src="http://webtv.camara.cl/js/principal.js"></script>
+    </script>
+</head>
+<div id="playerOnline">
+    <div id="playerPoliticas">
+        <video controls/>
+        <script type="text/javascript">
+            var contador0 = 0;
+            var primerIngreso = 0;
+            var playerInstanceP = jwplayer("playerPoliticas");
+            playerInstanceP.setup({
+                file: "https://camara.02.cl.cdnz.cl/cdndvr/live/playlist.m3u8?DVR",
+                width: "590px",
+                height: "280px",
+                stretching: "exactfit",
+                hlshtml: true,
+                primary: "html5",	
+                sou
+                autostart: true
+            });
+        </script>      
+    </div>
+</body>
