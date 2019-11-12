@@ -5,6 +5,8 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
 [Protestas Chile 2019](https://es.wikipedia.org/wiki/Protestas_en_Chile_de_2019) 
 
+[![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplo.jpg)](https://alplox.github.io/tele/)
+
 ## Canales Disponibles
 | Canales       | Radios        | Internacionales | Música     |
 | ------------- | ------------- | ------------- | -------------|
@@ -27,12 +29,12 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
 | LINK | Provisto por: | Fuente | Mirror         |
 | ------------- | ------------- | ------------- | ------------|
-| [Archivo publico de videos](https://archivopublico.smvi.co/)     | [dorinacho](https://old.reddit.com/user/ozzraven) | [x](https://old.reddit.com/r/chile/comments/dlllnq/donde_difundir_v%C3%ADdeos_sobre_las_protestas/f4rl0lv/) | 
-| [350 videos](https://drive.google.com/drive/folders/1xO5rwXFK1gOTuEzDf4wdtJFvyVqSqEXL) | [beatripit](https://old.reddit.com/user/beatripit/) | [x](https://old.reddit.com/r/DataHoarder/comments/dsilcn/anyone_hoarding_chile_protest_videos/) | [Torrent](http://mgnet.me/dRVn4G6)
-| [Compilación en Mega.nz](https://mega.nz/#F!lxon3KbL!NhlrKdgexf6jY36k6ndcaQ) | [ozzraven](https://old.reddit.com/user/ozzraven)| [x](https://old.reddit.com/r/chile/comments/dlllnq/donde_difundir_v%C3%ADdeos_sobre_las_protestas/f4rl0lv/)
+| [Archivo publico de videos](https://archivopublico.smvi.co/)     | [u/dorinacho](https://old.reddit.com/user/dorinacho) | [x](https://old.reddit.com/r/chile/comments/dlllnq/donde_difundir_v%C3%ADdeos_sobre_las_protestas/f4rl0lv/) | 
+| [350 videos](https://drive.google.com/drive/folders/1xO5rwXFK1gOTuEzDf4wdtJFvyVqSqEXL) | [u/beatripit](https://old.reddit.com/user/beatripit/) | [x](https://old.reddit.com/r/DataHoarder/comments/dsilcn/anyone_hoarding_chile_protest_videos/) | [Torrent](http://mgnet.me/dRVn4G6)
+| [Compilación en Mega.nz](https://mega.nz/#F!lxon3KbL!NhlrKdgexf6jY36k6ndcaQ) | [u/ozzraven](https://old.reddit.com/user/ozzraven)| [x](https://old.reddit.com/r/chile/comments/dlllnq/donde_difundir_v%C3%ADdeos_sobre_las_protestas/f4rl0lv/)
 | [Compilación Usuarios Reddit](https://old.reddit.com/r/chile/comments/dko63j/thread_de_videos_manifestaciones_octubre_2019/) | Varios | [x](https://old.reddit.com/r/chile/comments/dko63j/thread_de_videos_manifestaciones_octubre_2019/)
-
-
+| [Compilación en Dropbox](https://www.dropbox.com/sh/90int9i5w5pqkig/AAA-3nBgN5qEkU2BgRKtOGS-a?dl=0) | [@el_gamer_qlo](https://twitter.com/el_gamer_qlo/) | [x](https://twitter.com/el_gamer_qlo/status/1187034417442775041)
+| [Canal de Telegram](https://t.me/s/archivandochile) | [@archivandochile](https://twitter.com/ArchivandoChile) | [x](https://twitter.com/ArchivandoChile/status/1186675232830054412)
 
 ___
 [Idea original](http://pslabs.cl/tele.html) por [@pottersys](https://twitter.com/pottersys).
