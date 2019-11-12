@@ -8,9 +8,9 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 | ------------- | ------------- | ------------- | -------------|
 | 24 horas      | Cooperativa   | Todonoticias  | ChilledCow   |
 | Meganoticias  | Biobio TV     | RT Español    | Chillhop     |
-| Galería CIMA  | ADN           | RT Español op2| Steezyasfuck |
-| T13           | Duna          | RT News       |              |
-| CNN Chile     | Infinita      | MILENIO       |              |
+| Galería CIMA  | ADN           | RT News       | Steezyasfuck |
+| T13           | Duna          | MILENIO       |              |
+| CNN Chile     | Infinita      |               |              |
 | Canal 9 (Conce) | Universo    |               |              |
 | TVU (Conce)   | AE (DUOC)     |               |              |
 | Canal 21 (Chillán)  |         |               |              |
