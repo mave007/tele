@@ -15,6 +15,7 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 | TVU (Conce)   | AE (DUOC)     |               |              |
 | Canal 21 (Chillán)  |         |               |              |
 | Cámara Diputados |            |               |              |
+| Cámara Diputados op1 |            |               |              |
 | Cámara Diputados op2 |        |               |              |
 | Cámara Diputados op3 |        |               |              |
 | Cámara Diputados op4 |        |               |              |
