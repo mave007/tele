@@ -13,11 +13,11 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 | [Meganoticias](https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q)  | [ADN](http://tv.adnradio.cl/)           | [RT News](https://www.youtube.com/channel/UCpwvZwUam-URkxB7g4USKpg)       | [Steezyasfuck](https://www.youtube.com/channel/UCsIg9WMfxjZZvwROleiVsQg) |
 | [Galería CIMA](https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg)  | [Duna](https://www.duna.cl/tv/)   | [MILENIO](https://www.youtube.com/user/MILENIO)       |              |
 | [T13](https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg)   | [Infinita](http://www.infinita.cl/home/)      | [RT en vivo](https://www.youtube.com/channel/UCEIhICHOQOonjE6V0SLdrHQ)                |              |     
-| [CNN Chile](https://www.youtube.com/user/cnnchile)     | [Universo](https://www.universo.cl/)    |         |              |
-| [Canal 9 (Conce)](https://www.canal9.cl/en-vivo/) | [AE (DUOC)](https://www.aeradio.cl/)     |               |              |
-| [TVU (Conce)](https://www.tvu.cl/)   |      |               |              |
+| [CNN Chile](https://www.youtube.com/user/cnnchile)     | [Universo](https://www.universo.cl/)    | [Global News](https://www.youtube.com/user/GlobalToronto)        |              |
+| [Canal 9 (Conce)](https://www.canal9.cl/en-vivo/) | [AE (DUOC)](https://www.aeradio.cl/)     | [Crónica TV](https://www.youtube.com/channel/UCT7KFGv6s2a-rh2Jq8ZdM1g)              |              | 
+| [TVU (Conce)](https://www.tvu.cl/)   |      |                [DW Español](https://www.youtube.com/channel/UCT4Jg8h03dD0iN3Pb5L0PMA)             |
 | [Canal 21 (Chillán)](http://www.canal21tv.cl/wp/en-vivo/)  |         |               |              |
-| [Cámara Diputados](http://webtv.camara.cl/) |            |               |              |
+| [Cámara de Diputados](http://webtv.camara.cl/) |            |               |              |
 | [CHV](http://www.chilevision.cl/senal-online/)           |               |               |              |
 
 
