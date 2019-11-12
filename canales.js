@@ -95,6 +95,7 @@ var App = {
         },
         'cam-dipu': {
             'nombre': 'Cámara Diputados <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'status': 'offline',
             'code': '<iframe width= 100% height= 100% src="http://webtv.camara.cl/" style="border: 0px none"></iframe><div class="nombre"> Cámara Diputados (poner en pantalla completa) <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'cam-dipu1': {
