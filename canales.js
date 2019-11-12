@@ -94,8 +94,12 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/g0AvCn6ViqY?autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> STEEZYASFUCK 🎵</div>'
         },
         'cam-dipu': {
-            'nombre': 'Cámara Diputados  <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img><img src="https://github.com/Alplox/tele/raw/master/icons/edge.png"></img>',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl/camara19/live/chunklist.m3u8"></video><div class="nombre"><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/edge.png"> Cámara Diputados <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
+            'nombre': 'Cámara Diputados <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<iframe width= 100% height= 100% src="http://webtv.camara.cl/" style="border: 0px none"></iframe><div class="nombre"> Cámara Diputados (poner en pantalla completa) <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
+        },
+        'cam-dipu1': {
+            'nombre': 'Cámara Diputados op1 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img><img src="https://github.com/Alplox/tele/raw/master/icons/edge.png"></img>',
+            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl/camara19/live/chunklist.m3u8"></video><div class="nombre"><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/edge.png"> Cámara Diputados 1<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'cam-dipu2': {
             'nombre': 'Cámara Diputados op2  <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img><img src="https://github.com/Alplox/tele/raw/master/icons/edge.png"></img>',
@@ -107,7 +111,7 @@ var App = {
         },
         'cam-dipu4': {
             'nombre': 'Cámara Diputados op4  <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img><img src="https://github.com/Alplox/tele/raw/master/icons/edge.png"></img>',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl:80/camara19/live/playlist.m3u8"></video><div class="nombre"><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/edge.png"> Cámara Diputados 4 <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
+            'code': '<video id="playerPoliticas" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl:80/camara19/live/playlist.m3u8"></video><div class="nombre"><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/edge.png"> Cámara Diputados 4 <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'chv-m3u': {
             'nombre': 'CHV  <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img><img src="https://github.com/Alplox/tele/raw/master/icons/edge.png"></img>',
