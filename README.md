@@ -15,10 +15,8 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 | TVU (Conce)   | AE (DUOC)     |               |              |
 | Canal 21 (Chillán)  |         |               |              |
 | Cámara Diputados |            |               |              |
-| Cámara Diputados op1 |            |               |              |
-| Cámara Diputados op2 |        |               |              |
-| Cámara Diputados op3 |        |               |              |
-| Cámara Diputados op4 |        |               |              |
+| CHV           |               |               |              |
+
 
 [Protestas Chile 2019](https://es.wikipedia.org/wiki/Protestas_en_Chile_de_2019) - [Archivo publico de videos](https://archivopublico.smvi.co/)
 ___
