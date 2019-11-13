@@ -7,7 +7,7 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplo.jpg)](https://alplox.github.io/tele/)
 
-## Canales Disponibles
+# Canales disponibles junto a su origen:
 | Canales       | Radios        | Internacionales | Música     |
 | ------------- | ------------- | ------------- | -------------|
 | [24 Horas](https://www.youtube.com/channel/UCTXNz3gjAypWp3EhlIATEJQ)      | [Cooperativa](http://programas.cooperativa.cl/showalairelibre/)   | [Todonoticias](https://www.youtube.com/channel/UCj6PcyLvpnIRT_2W_mwa9Aw) | [ChilledCow](https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow)   |
